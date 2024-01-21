@@ -13,7 +13,7 @@ cd two-tier-flask-app/k8s
 ```
 - Now, execute below commands one by one
 ```bash
-kubectl apply -f twotier-deployment.yml
+kubectl apply -f two-tier-app-deployment.yml
 ```
 ```bash
 kubectl apply -f twotier-deployment-svc.yml
